@@ -59,4 +59,13 @@ Click Me!</button>
 document.getElementById(id).innerHTML = text
 }
 <button type="button" onclick='changeText("demo","Hello JavaScript!")'>Click Me!</button>
+    
+    function display(number) {
+//for now just display the number in a <p> element
+document.getElementById("decimal_input").innerHTML=number
+var bcd = dec2bin(number)
+document.getElementById("binary_output").innerHTML=bcd
+}
+
 </script>
+
